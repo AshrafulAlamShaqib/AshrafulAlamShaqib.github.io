@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Emoji Generator</title>
+    <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+</head>
+
+
+<body>
+
+ <p>
+  <big>Generate any emoji upto 1000 times.</big>
+ </p>
+
+ <button onclick="generate()">
+  <big>Enter emoji & limit</big>
+ </button>
+
+
+<script>
+function generate() {
+	var count=1
+	let emoji = prompt("Enter emoji")
+	let limit = prompt("Enter limit")
+while (count<=limit) {
+	console.log(emoji+count)
+	if (limit>1000) {
+		document.write("Limit exeded")
+		break;
+	}
+	document.write(emoji+count)
+	count++;
+	}
+}
+</script>
+
+</body>
+
+</html>
