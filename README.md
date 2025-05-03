@@ -1,2 +1,1 @@
-Hi, I’m AshrafulAlamShaqib
-This is just my first website
+Hi, I’m AshrafulAlamShaqib. And this is just my first website
